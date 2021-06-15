@@ -1,0 +1,49 @@
+let answer2 = $("input").val();
+    $("img").hide();
+    $(".q1").hide();
+    $(".q2").hide();
+    $("p").hide();
+    $(".set1").hide();
+    $(".set2").hide();
+$(".start").click(function() {
+    $(".q1").show();
+    $(".set1").show();
+    $("h1").hide();
+    $(".start").hide();
+});
+$(".none").click(function(){
+    $(".luck").show();
+    $(".b").hide();
+    $(".c").hide();
+    $(".set1").hide();
+    $(".q1").hide();
+});
+$(".b").click(function(){
+    $(".noel").show();
+    $(".b").hide();
+    $(".c").hide();
+    $(".set1").hide();
+    $(".q1").hide();
+});
+$(".c").click(function(){
+    $(".q2").show();
+    $(".b").hide();
+    $(".c").hide();
+    $(".set1").hide();
+    $(".q1").hide();
+    $(".d").show();
+    $(".e").show();
+});
+$(".d").click(function(){
+    $(".asta").show();
+    $(".d").hide();
+    $(".e").hide();
+    $(".q2").hide();
+});
+$(".e").click(function(){
+    $(".yuno").show();
+    $(".f").show();
+    $(".d").hide();
+    $(".q2").hide();
+    $(".e").hide();
+});
